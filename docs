@@ -1,1 +1,37 @@
 
+Teste: 
+
+        Usuário:
+	Nome 
+	Email
+	Senha
+	Receitas
+	Foto
+
+
+
+
+Design:												|status de teste
+	Cadastro de usúario:									| OK
+		Deve conter obrigatoriamente nome, email do usuário e senha			| OK
+		Validar email informado enviando confirmação ao endereço			| OK
+		Validar senha									| OK
+	
+	Cadastro de receita:
+		Apenas usuário logado poderá enviar receita					| OK
+		Toda receita enviada deve ter uma foto						| OK
+		Não será enviado foto sem receita						| OK
+		
+	Consulta de receitas:
+		Todo usuário poderá consultar suas receitas e de outros usuário			| OK
+		Filtro por tipo de receita							| OK
+		
+	Avaliação de receitas:
+		Opção de curtir receita visualizada						| OK
+		Lista de receitas mais votadas							| OK
+		Comentários de receita								| OK
+
+	Ranking de receitas:
+		Lista de mais votadas será exibida na home 					| OK
+
+
