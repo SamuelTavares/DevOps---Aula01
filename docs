@@ -7,6 +7,29 @@ Usuário:
 	Foto
 ================================================================================
 Design:
+Cenário											
+	Cadastro de usúario:									
+		Deve conter obrigatoriamente nome, email do usuário e senha			
+		Validar email informado enviando confirmação ao endereço			
+		Validar senha									
+	
+	Cadastro de receita:
+		Apenas usuário logado poderá enviar receita					
+		Toda receita enviada deve ter uma foto						
+		Não será enviado foto sem receita						
+		
+	Consulta de receitas:
+		Todo usuário poderá consultar suas receitas e de outros usuário			
+		Filtro por tipo de receita							
+		
+	Avaliação de receitas:
+		Opção de curtir receita visualizada						
+		Lista de receitas mais votadas							
+		Comentários de receita								
+
+	Ranking de receitas:
+		Lista de mais votadas será exibida na home 					
+
 
 
 	
