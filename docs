@@ -5,23 +5,23 @@ Usuário:
 	Senha
 	Receitas
 	Foto
+================================================================================
+Design:
 
+
+	
+================================================================================	
 Codificação:
 	Javascript, MySql, HTML, CSS
 	
+
+
+
+
+================================================================================
 Teste: 
 
-        Usuário:
-	Nome 
-	Email
-	Senha
-	Receitas
-	Foto
-
-
-
-
-Design:												|status de teste
+	Cenário											|status de teste
 	Cadastro de usúario:									| OK
 		Deve conter obrigatoriamente nome, email do usuário e senha			| OK
 		Validar email informado enviando confirmação ao endereço			| OK
@@ -45,6 +45,10 @@ Design:												|status de teste
 		Lista de mais votadas será exibida na home 					| OK
 
 
+
+
+
+================================================================================
 OPERAÇÃO:
 
 Inicio de Implantação e Gestão de Qualidade do sistema em funcionamento.
